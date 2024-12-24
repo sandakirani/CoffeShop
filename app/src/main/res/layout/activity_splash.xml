@@ -15,15 +15,15 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="match_parent"
-        android:layout_height="336dp"
+        android:layout_width="wrap_content"
+        android:layout_height="308dp"
         app:srcCompat="@drawable/logo" />
 
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:progressBarStyleHorizontal"
         android:layout_width="265dp"
-        android:layout_height="31dp"
+        android:layout_height="46dp"
         android:layout_gravity="center"
         android:indeterminate="true"
         android:indeterminateTint="@color/brown_1" />
